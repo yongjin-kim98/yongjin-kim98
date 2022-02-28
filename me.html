@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김용진의 이력서</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+        * {
+            font-family: 'Montserrat';
+        }
+        .mainbox {
+            width: 610px;
+            padding: 30px;
+            margin: 30px;
+            margin-right: auto;
+            margin-left: auto;
+            border: 1px solid #ebebeb;
+            box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+        }
+        body,h1,h2 {
+            margin:0px;
+            padding:0px;
+        }
+
+        body {
+            min-width: fit-content;
+        }
+
+        h1 {
+            font-size:36px;
+            font-weight: bold;
+            font-style: italic;
+            margin-bottom: 8px;
+        }
+
+
+        h2 {
+            font-size:20px;
+            color:#282828;
+            font-weight: lighter;
+            margin-bottom: 16px;
+            border-bottom: 1px solid #ebebeb;
+            padding-bottom: 5px;
+        }
+
+        .name-text {
+            font-size:16px;
+            color:#7c7c7c;
+            font-weight: bold;
+        }
+
+        .about-me-text {
+            font-size:10px;
+            line-height: 16px;
+        }
+
+        section {
+            margin-bottom:24px;
+        }
+
+        .float-wrap {
+            overflow: hidden;
+            margin-bottom: 4px;
+        }
+
+        .title-text {
+            font-size:11px;
+            font-weight: bold;
+            color: #282828;
+            float: left;
+        }
+
+        .year-text{
+            font-size:11px;
+            font-weight: bold;
+            color: #282828;
+            float: right;
+        }
+
+        .year-text > span {
+            color: red;
+        }
+
+        .desc-text {
+            font-size: 9px;
+            margin-bottom:6px;
+        }
+
+        .desc-subtext {
+            font-size: 9px;
+            color:#282828;
+            padding-left:16px;
+            margin-bottom:8px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #1e1e1e;
+            padding: 20px;
+            font-size: 12px;
+            color: #919191;
+        }
+        .title-box {
+            text-align: right;
+        }
+
+        .sns-img {
+            width: 12px;
+            height: 12px;
+        }
+
+        .sns-wrap {
+            text-align: right;
+        }
+        .btn {
+            background-color: #3f3732;
+            color: white;
+
+            width: 300px;
+            height: 50px;
+            border-radius: 10px;
+
+            font-size: 18px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            cursor: pointer;
+
+            position: fixed;
+            bottom: 16px;
+            left: calc(50% - 150px);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="mainbox">
+        <div class="title-box">
+            <h1>김용진의 이력서</h1>
+            <p class="name_text">HTML/CSS 개발자</p>
+        </div>
+        <section>
+            <h2>ABOUT ME</h2>
+            <p class="about-me-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+        <section>
+            <h2>EXPERIENCE</h2>
+            <div class="float-wrap">
+                <p class="title-text">Code lion</p>
+                <p class="year-text">2022. 02. 21 - now</p>
+            </div>
+            <p class="desc-text">Front-End Web Developer</p>
+            <p class="desc-subtext">HTML/CSS, JS, React, ...</p>
+        </section>
+        <section>
+            <h2>ACTIVITIES</h2>
+            <div class="float-wrap">
+                <p class="title-text">Code lion</p>
+                <p class="year-text">2022. 02. 21 - now</p>
+            </div>
+            <p class="desc-text">Front-End Web Developer</p>
+            <p class="desc-subtext">HTML/CSS, JS, React, ...</p>
+            <div class="float-wrap">
+                <p class="title-text">Ministry of Health</p>
+                <p class="year-text">2015 - 2018</p>
+              </div>
+              <p class="desc-text">UI/UX Designer</p>
+              <p class="desc-subtext">Web design</p>
+              <div class="float-wrap">
+                  <p class="title-text">Freelance Work</p>
+                  <p class="year-text">2011 - 2015</p>
+              </div>
+              <p class="desc-text">Graphic Designer</p>
+              <p class="desc-subtext">Graphic Design, Editorial Design</p>
+        </section>
+        <section>
+            <h2>EDUCATION</h2>
+            <div class="float-wrap">
+                <p class="title-text">Mutsa University</p>
+                <p class="year-text">2008 - 2012</p>
+            </div>
+            <p class="desc-text">Computer Science and Engineering</p>
+            <div class="float-wrap">
+                <p class="title-text">Mutsa High school</p>
+                <p class="year-text">2006 - 2008</p>
+            </div>
+            <p class="desc-text">Visual Communication Design</p>
+            <div class="float-wrap">
+                <p class="title-text">Online Programming Academy</p>
+                <p class="year-text">2006 - 2007</p>
+            </div>
+            <p class="desc-text">Python Course</p>
+        </section>
+    
+        <section>
+          <h2>AWARDS</h2>
+          <div class="float-wrap">
+            <p class="title-text">LIKELION SEOUL</p>
+            <p class="year-text"><span>2018</span></p>
+          </div>
+          <p class="desc-text">Best Developer Award</p>
+        </section>
+     </div>
+     <div class="sns-wrap">
+        <a href="http://facebook.com"><img class="sns-img" src="images/facebook.png"></a>
+        <img class="sns-img" src="images/twitter.png">
+        <img class="sns-img" src="images/linked-in.png">
+        <img class="sns-img" src="images/insta.png">
+      </div>
+      <div class="btn">hello</div>
+    <footer>
+        <p>Copyright YOOONG All rights reserved. </p>
+    </footer>
+</body>
+</html>
